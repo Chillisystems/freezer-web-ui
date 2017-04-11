@@ -130,7 +130,7 @@ function setModeOptions() {
             $("#id_cinder_vol_id").closest(".form-group").show();
         } else if ($id_mode === 'nova') {
             $("#id_nova_inst_id").closest(".form-group").show();
-            $("#id_nova_network_id").closest(".form-group").show();
+            $("#id_nova_restore_network").closest(".form-group").show();
         }
     }
 }
